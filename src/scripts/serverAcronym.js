@@ -57,23 +57,23 @@ function generateBasedAcronym() {
       'Dogs',
       'Diarrhoea',
     ],
-  }
+  };
 
-  const wordB = wordBank['B'][Math.floor(Math.random() * wordBank['B'].length)]
-  const wordA = wordBank['A'][Math.floor(Math.random() * wordBank['A'].length)]
-  const wordS = wordBank['S'][Math.floor(Math.random() * wordBank['S'].length)]
-  const wordE = wordBank['E'][Math.floor(Math.random() * wordBank['E'].length)]
-  const wordD = wordBank['D'][Math.floor(Math.random() * wordBank['D'].length)]
+  const wordB = wordBank['B'][Math.floor(Math.random() * wordBank['B'].length)];
+  const wordA = wordBank['A'][Math.floor(Math.random() * wordBank['A'].length)];
+  const wordS = wordBank['S'][Math.floor(Math.random() * wordBank['S'].length)];
+  const wordE = wordBank['E'][Math.floor(Math.random() * wordBank['E'].length)];
+  const wordD = wordBank['D'][Math.floor(Math.random() * wordBank['D'].length)];
 
-  document.getElementById('name1').textContent = wordB
-  document.getElementById('name2').textContent = wordA
-  document.getElementById('name3').textContent = wordS
-  document.getElementById('name4').textContent = wordE
-  document.getElementById('name5').textContent = wordD
+  document.getElementById('name1').textContent = wordB;
+  document.getElementById('name2').textContent = wordA;
+  document.getElementById('name3').textContent = wordS;
+  document.getElementById('name4').textContent = wordE;
+  document.getElementById('name5').textContent = wordD;
 
   // Return the full acronym
-  return `${name1} ${name2} ${name3} ${name4} ${name5}`
+  return `${name1} ${name2} ${name3} ${name4} ${name5}`;
 }
 
-generateBasedAcronym()
+generateBasedAcronym();
 // @license-end
