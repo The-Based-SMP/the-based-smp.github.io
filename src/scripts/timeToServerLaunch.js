@@ -1,5 +1,5 @@
 // @license http://www.gnu.org/licenses/agpl-3.0.html AGPL-3.0
-const timestamp = 1735862400; // smp start time
+const timestamp = 1737331200; // smp start time
 
 function updateCountdown() {
   const now = Math.floor(Date.now() / 1000);
