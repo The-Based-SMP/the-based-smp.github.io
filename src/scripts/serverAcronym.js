@@ -1,5 +1,7 @@
 // @license http://www.gnu.org/licenses/agpl-3.0.html AGPL-3.0
 // would be better if all words were stored in an external file
+// disclamer: somebody i know made this code using chatgpt and sent it to me (i did not know it was made by chatgpt at the time)
+// TODO: rewrite this at some point
 function generateBasedAcronym() {
   const wordBank = {
     B: [
