@@ -78,9 +78,17 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         </span>
         <span style="float: right">Icon and name by Blubby</span>
       </span>
-      <hr />
+      <hr class="server-icon-hr" />
     </div>
   </main>
+
+  <style>
+    .server-icon-hr {
+      border: none;
+      height: 1px;
+      background-color: black;
+    }
+  </style>
 
   <script src="../scripts/serverAcronym.js"></script>
 </BaseLayout>
